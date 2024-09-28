@@ -74,14 +74,13 @@ The backend should now be running and ready to process requests from the fronten
   - `requirements.txt`: Python dependencies
 
 ## Tech Stack
+For the web application, I utilized Next.js along with Tailwind CSS to create a responsive and modern user interface. Next.js provides server-side rendering capabilities and a robust routing system, while Tailwind CSS offers utility-first styling, enabling rapid design adjustments. 
 
-For the web application, I utilized **Next.js** along with **Tailwind CSS** to create a responsive and modern user interface.
+For the machine learning backend, I implemented FastAPI, which facilitates seamless integration with the Python-based machine learning libraries I am using, including YOLOv8 for object detection. This stack allows for efficient communication between the front end and the ML model, ensuring quick response times and a smooth user experience for inventory detection tasks.
 
-
-For the machine learning backend, I implemented **FastAPI**, which facilitates seamless integration with the Python-based machine learning libraries I am using, including **YOLOv8** for object detection.
 
 ## Model Selection
+I Employed a pre-trained **YOLOv8** model for real-time object detection, chosen for its speed and accuracy in identifying multiple objects within images. I chose YOLOv8 for inventory detection due to its excellent balance of speed and accuracy, making it ideal for real-time applications. Compared to other models like Faster R-CNN or SSD, YOLOv8 processes images quickly while maintaining high detection precision, which is crucial for managing inventory effectively. Its user-friendly implementation with pre-trained weights allows for easy integration and fine-tuning, making it adaptable to various environments.
 
-I employed a pre-trained **YOLOv8** model for real-time object detection...
 ![alt text](demo-img-2.png)
 ![alt text](demo-img-1.png)
