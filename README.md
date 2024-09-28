@@ -77,7 +77,6 @@ The backend should now be running and ready to process requests from the fronten
 
 For the web application, I utilized **Next.js** along with **Tailwind CSS** to create a responsive and modern user interface.
 
-![Tech Stack](assets/example.png) <!-- This will display the image directly -->
 
 For the machine learning backend, I implemented **FastAPI**, which facilitates seamless integration with the Python-based machine learning libraries I am using, including **YOLOv8** for object detection.
 
