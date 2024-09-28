@@ -73,4 +73,16 @@ The backend should now be running and ready to process requests from the fronten
   - `yolov8l.pt`: YOLOv8 model weights
   - `requirements.txt`: Python dependencies
 
-![Preview of Document](./document.pdf)
+## Tech Stack
+
+For the web application, I utilized **Next.js** along with **Tailwind CSS** to create a responsive and modern user interface.
+
+![Tech Stack](assets/example.png) <!-- This will display the image directly -->
+
+For the machine learning backend, I implemented **FastAPI**, which facilitates seamless integration with the Python-based machine learning libraries I am using, including **YOLOv8** for object detection.
+
+## Model Selection
+
+I employed a pre-trained **YOLOv8** model for real-time object detection...
+
+![alt text](demo-img-1.png)
