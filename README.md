@@ -84,5 +84,5 @@ For the machine learning backend, I implemented **FastAPI**, which facilitates s
 ## Model Selection
 
 I employed a pre-trained **YOLOv8** model for real-time object detection...
-
+![alt text](demo-img-2.png)
 ![alt text](demo-img-1.png)
