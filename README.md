@@ -76,7 +76,7 @@ The backend should now be running and ready to process requests from the fronten
 ## Tech Stack
 For the web application, I utilized Next.js along with Tailwind CSS to create a responsive and modern user interface. Next.js provides server-side rendering capabilities and a robust routing system, while Tailwind CSS offers utility-first styling, enabling rapid design adjustments. 
 
-For the machine learning backend, I implemented FastAPI, which facilitates seamless integration with the Python-based machine learning libraries I am using, including YOLOv8 for object detection. This stack allows for efficient communication between the front end and the ML model, ensuring quick response times and a smooth user experience for inventory detection tasks.
+For the machine learning backend, I implemented FastAPI, which facilitates integration with the Python-based machine learning libraries I am using, including YOLOv8 for object detection. This stack allows for efficient communication between the front end and the ML model, ensuring quick response times and a smooth user experience for inventory detection tasks.
 
 
 ## Model Selection
