@@ -82,5 +82,11 @@ For the machine learning backend, I implemented FastAPI, which facilitates integ
 ## Model Selection
 I Employed a pre-trained **YOLOv8** model for real-time object detection, chosen for its speed and accuracy in identifying multiple objects within images. I chose YOLOv8 for inventory detection due to its excellent balance of speed and accuracy, making it ideal for real-time applications. Compared to other models like Faster R-CNN or SSD, YOLOv8 processes images quickly while maintaining high detection precision, which is crucial for managing inventory effectively. Its user-friendly implementation with pre-trained weights allows for easy integration and fine-tuning, making it adaptable to various environments.
 
+## Any challenges faced during development and how they were resolved?
+
+One significant challenge I encountered was the inability to deploy the application on Vercel or other free hosting services due to the large size of the machine learning model, which exceeded their limits for free deployments. This could be resolved by opting for a paid tier, specifically deploying the application on an AWS EC2 instance, which provides the necessary resources to accommodate the large model. 
+
+ Additionally, I faced accuracy issues with the model, particularly when detecting items that were too close together or overlapping, which led to misclassifications. If I had more time and access to GPU resources, I could further customize the model specifically for food detection, enhancing its accuracy and performance in these challenging scenarios. This would enable a more tailored solution that better meets the unique needs of the application.
+
 ![alt text](demo-img-2.png)
 ![alt text](demo-img-1.png)
