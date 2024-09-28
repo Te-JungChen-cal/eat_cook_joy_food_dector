@@ -72,3 +72,5 @@ The backend should now be running and ready to process requests from the fronten
   - `ml_yolo.py`: YOLOv8 implementation for food detection
   - `yolov8l.pt`: YOLOv8 model weights
   - `requirements.txt`: Python dependencies
+
+[Download the PDF](./document.pdf)
